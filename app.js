@@ -20,7 +20,7 @@ io.on("connection", function (socket) {
 })
 
 app.get("/", function (req, res) {
-    res.end("<h1>Ser</h1>")
+    res.end("<h1>Server Started</h1>")
 })
 
 
